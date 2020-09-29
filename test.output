@@ -1,0 +1,514 @@
+Enter the number of runways: 3
+Enter the name of runway number 1: NorthEast
+Enter the name of runway number 2: SouthWest
+Enter the name of runway number 3: West
+Select from the following menu: 
+   0. End the program
+   1. Plane enters the system (Takeoff)
+   2. Plane enters the system (Landing)
+   3. Plane takes off
+   4. Plane lands
+   5. Plane is allowed to re-enter a runway
+   6. Plane is allowed to re-enter a landing circuit
+   7. Runway opens
+   8. Runway closes
+   9. Display info about planes waiting to take off
+   10. Display info about planes waiting to land
+   11. Display info about planes waiting to be allowed to re-enter a runway
+   12. Display info about planes waiting to be allowed to re-enter landing circuit
+   13. Display number of planes that have taken off
+   14. Display number of planes that have landed
+
+Make your selection now: 3
+No planes available for takeoff.
+
+Make your selection now: 5
+There are no planes waiting for clearance!
+
+Make your selection now: 9
+No planes are waiting for takeoff on runway NorthEast!
+
+No planes are waiting for takeoff on runway SouthWest!
+
+No planes are waiting for takeoff on runway West!
+
+Make your selection now: 11
+No planes waiting to re-enter runways!
+
+Make your selection now: 13
+0 flights have been cleared for take off and left the airport.
+
+Make your selection now: 1
+Specify flight number: USAir705
+Specify a destination: Boston
+Specify a runway: NorthEast
+Flight USAir705 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 1
+Specify flight number: AirFrance212
+Specify a destination: Paris
+Specify a runway: NorthEast
+Flight AirFrance212 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 1
+Specify flight number: British909
+Specify a destination: London
+Specify a runway: NorthEast
+Flight British909 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 1
+Specify flight number: United954
+Specify a destination: Pittsburgh
+Specify a runway: NorthWest
+Could not add flight -- Ensure runway exists.
+
+Specify a runway: West
+Flight United954 is now waiting for takeoff on runway West
+
+Make your selection now: 1
+Specify flight number: Delta204
+Specify a destination: Chicago
+Specify a runway: NorthEast
+Flight Delta204 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 1
+Specify flight number: USAir305
+Specify a destination: San Diego
+Specify a runway: West
+Flight USAir305 is now waiting for takeoff on runway West
+
+Make your selection now: 1
+Specify flight number: United572
+Specify a destination: Fort Lauderdale
+Specify a runway: SouthWest
+Flight United572 is now waiting for takeoff on runway SouthWest
+
+Make your selection now: 5
+There are no planes waiting for clearance!
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight USAir705 -- Destination: Boston
+Flight AirFrance212 -- Destination: Paris
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+These planes are waiting for takeoff on runway SouthWest
+Flight United572 -- Destination: Fort Lauderdale
+
+These planes are waiting for takeoff on runway West
+Flight United954 -- Destination: Pittsburgh
+Flight USAir305 -- Destination: San Diego
+
+Make your selection now: 11
+No planes waiting to re-enter runways!
+
+Make your selection now: 13
+0 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight USAir705 cleared for takeoff (Y/N): N
+Flight USAir705 is now waiting to be allowed to re-enter a runway
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight AirFrance212 -- Destination: Paris
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+These planes are waiting for takeoff on runway SouthWest
+Flight United572 -- Destination: Fort Lauderdale
+
+These planes are waiting for takeoff on runway West
+Flight United954 -- Destination: Pittsburgh
+Flight USAir305 -- Destination: San Diego
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+0 flights have been cleared for take off and left the airport.
+
+Make your selection now: 1
+Specify flight number: American493
+Specify a destination: Seattle
+Specify a runway: West
+Flight American493 is now waiting for takeoff on runway West
+
+Make your selection now: 3
+Is flight United572 cleared for takeoff (Y/N): Y
+Flight United572 has now taken off from runway SouthWest
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight AirFrance212 -- Destination: Paris
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+No planes are waiting for takeoff on runway SouthWest!
+
+These planes are waiting for takeoff on runway West
+Flight United954 -- Destination: Pittsburgh
+Flight USAir305 -- Destination: San Diego
+Flight American493 -- Destination: Seattle
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+1 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight United954 cleared for takeoff (Y/N): N
+Flight United954 is now waiting to be allowed to re-enter a runway
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight AirFrance212 -- Destination: Paris
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+No planes are waiting for takeoff on runway SouthWest!
+
+These planes are waiting for takeoff on runway West
+Flight USAir305 -- Destination: San Diego
+Flight American493 -- Destination: Seattle
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+1 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight AirFrance212 cleared for takeoff (Y/N): N
+Flight AirFrance212 is now waiting to be allowed to re-enter a runway
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+No planes are waiting for takeoff on runway SouthWest!
+
+These planes are waiting for takeoff on runway West
+Flight USAir305 -- Destination: San Diego
+Flight American493 -- Destination: Seattle
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+1 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight USAir305 cleared for takeoff (Y/N): Y
+Flight USAir305 has now taken off from runway West
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+
+No planes are waiting for takeoff on runway SouthWest!
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+2 flights have been cleared for take off and left the airport.
+
+Make your selection now: 1
+Specify flight number: Continental339
+Specify a destination: Montreal
+Specify a runway: NorthEast
+Flight Continental339 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 1
+Specify flight number: jetBlue856
+Specify a destination: Atlanta
+Specify a runway: SouthWest
+Flight jetBlue856 is now waiting for takeoff on runway SouthWest
+
+Make your selection now: 1
+Specify flight number: AmericaWest691
+Specify a destination: San Francisco
+Specify a runway: West
+Flight AmericaWest691 is now waiting for takeoff on runway West
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+
+These planes are waiting for takeoff on runway SouthWest
+Flight jetBlue856 -- Destination: Atlanta
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+2 flights have been cleared for take off and left the airport.
+
+Make your selection now: 7
+Enter the name of new runway: West
+Runway West already exists, please choose another name.
+
+Enter the name of new runway: East
+Runway East has opened.
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+
+These planes are waiting for takeoff on runway SouthWest
+Flight jetBlue856 -- Destination: Atlanta
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+No planes are waiting for takeoff on runway East!
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+2 flights have been cleared for take off and left the airport.
+
+Make your selection now: 1
+Specify flight number: Lufthansa581
+Specify a destination: Muenchen
+Specify a runway: East
+Flight Lufthansa581 is now waiting for takeoff on runway East
+
+Make your selection now: 1
+Specify flight number: Alitalia576
+Specify a destination: Rome
+Specify a runway: East
+Flight Alitalia576 is now waiting for takeoff on runway East
+
+Make your selection now: 1
+Specify flight number: Continental304
+Specify a destination: Miami
+Specify a runway: SouthWest
+Flight Continental304 is now waiting for takeoff on runway SouthWest
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight British909 -- Destination: London
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+
+These planes are waiting for takeoff on runway SouthWest
+Flight jetBlue856 -- Destination: Atlanta
+Flight Continental304 -- Destination: Miami
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+2 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight British909 cleared for takeoff (Y/N): Y
+Flight British909 has now taken off from runway NorthEast
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+
+These planes are waiting for takeoff on runway SouthWest
+Flight jetBlue856 -- Destination: Atlanta
+Flight Continental304 -- Destination: Miami
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+Flight USAir705 -- Destination: Boston
+
+Make your selection now: 13
+3 flights have been cleared for take off and left the airport.
+
+Make your selection now: 5
+Enter flight number: USAir705
+Enter runway to reenter: NorthEast
+Flight USAir705 is now waiting for takeoff on runway NorthEast
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+Flight USAir705 -- Destination: Boston
+
+These planes are waiting for takeoff on runway SouthWest
+Flight jetBlue856 -- Destination: Atlanta
+Flight Continental304 -- Destination: Miami
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+
+Make your selection now: 13
+3 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight jetBlue856 cleared for takeoff (Y/N): Y
+Flight jetBlue856 has now taken off from runway SouthWest
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+Flight USAir705 -- Destination: Boston
+
+These planes are waiting for takeoff on runway SouthWest
+Flight Continental304 -- Destination: Miami
+
+These planes are waiting for takeoff on runway West
+Flight American493 -- Destination: Seattle
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+
+Make your selection now: 13
+4 flights have been cleared for take off and left the airport.
+
+Make your selection now: 3
+Is flight American493 cleared for takeoff (Y/N): Y
+Flight American493 has now taken off from runway West
+
+Make your selection now: 8
+Closing runway...
+Enter runway ID: North
+Runway North does not exist!
+Closing runway...
+Enter runway ID: West
+Which runway would you like to re-assign flight AmericaWest691 to for take-off? : West
+This is the runway being closed!
+Which runway would you like to re-assign flight AmericaWest691 to for take-off? : North
+No such runway!
+Which runway would you like to re-assign flight AmericaWest691 to for take-off? : NorthEast
+Flight AmericaWest691 is now awaiting takeoff on runway NorthEast
+Make your selection now: SouthWest
+Invalid input.
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+Flight USAir705 -- Destination: Boston
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway SouthWest
+Flight Continental304 -- Destination: Miami
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+Flight United954 -- Destination: Pittsburgh
+
+Make your selection now: 13
+5 flights have been cleared for take off and left the airport.
+
+Make your selection now: 5
+Enter flight number: United953
+No such flight awaiting clearance.
+
+Make your selection now: 5
+Enter flight number: United954
+Enter runway to reenter: Southwest
+Flight United954 is now waiting for takeoff on runway Southwest
+
+Make your selection now: 9
+These planes are waiting for takeoff on runway NorthEast
+Flight Delta204 -- Destination: Chicago
+Flight Continental339 -- Destination: Montreal
+Flight USAir705 -- Destination: Boston
+Flight AmericaWest691 -- Destination: San Francisco
+
+These planes are waiting for takeoff on runway SouthWest
+Flight Continental304 -- Destination: Miami
+Flight United954 -- Destination: Pittsburgh
+
+These planes are waiting for takeoff on runway East
+Flight Lufthansa581 -- Destination: Muenchen
+Flight Alitalia576 -- Destination: Rome
+
+Make your selection now: 11
+All planes waiting to re-enter runways -- 
+Flight AirFrance212 -- Destination: Paris
+
+Make your selection now: 13
+5 flights have been cleared for take off and left the airport.
+
+Make your selection now: 0
+Signing off...
+Exiting program...Good Bye

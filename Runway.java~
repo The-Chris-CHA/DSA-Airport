@@ -1,0 +1,38 @@
+/*
+ * Purpose: Data Structures and Algorithms PROJECT
+ */
+
+public class Runway {
+
+    private QueueRAB<Flight> runway;
+    private String runwayNumber;
+
+    public Runway(String number)
+    {
+	runwayNumber = number;
+	runway = new QueueRAB<Flight>;
+    }
+
+
+    public String getRunwayNumber()
+    {
+	return runwayNumber;
+    }
+
+    public void takeoff()
+    {
+	//plane takes off
+	runway.dequeue();
+    }
+
+    public void addFlight(Flight newFlight)
+    {
+	//add new flight to end of runway queue
+	runway.enqueue(newFlight);
+    }
+
+    public Flight displayWaiting()
+    {
+	runway.peek();
+    }
+}

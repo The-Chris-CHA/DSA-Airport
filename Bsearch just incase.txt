@@ -1,0 +1,53 @@
+	// Begin runway search and sorts
+	// Begin bSearch for runway
+	public int searchRunway(int left, int right, String runwayName) {
+		if (right >= left) {
+			int mid = left + (right - 1) / 2;
+		
+			if (((runwayList.get(mid)).getRunwayNumber()).equalsIgnoreCase(runwayName)) {
+				return mid;
+			}
+			
+			if (((runwayList.get(mid)).getRunwayNumber()).compareToIgnoreCase(runwayName) > 0) {
+				return searchRunway(left, mid-1, runwayName);
+			}
+			else {
+				return searchRunway(mid+1, right, runwayName);
+			}
+		
+		}
+		return -1;
+	} // End bSearch for runway
+	
+	
+	// Begin Quicksort for Runway
+	public void quickSortRunway(int low, int high) {
+		if (low < high) {
+			int part = partRunway(low, high);
+			
+			quickSortRunway(low, part-1);
+			quickSortRunway(part+1, high);
+		}
+		
+	}
+	
+	public int partRunway(int low, int high) {
+		String pivot = runwayList.get(high).getRunwayNumber();
+		int x = (low -1);
+		for (int y = low; y<high; y++) {
+			if ((runwayList.get(y).getRunwayNumber()).compareToIgnoreCase(pivot) < 0) {
+				x++;
+				
+				Runway temp = runwayList.get(x);
+				
+				runwayList.set(x, runwayList.get(y));
+				runwayList.set(y, temp);
+			}
+		}
+		
+		Runway temp2 = runwayList.get(x+1);
+		runwayList.set(x+1, runwayList.get(high));
+		runwayList.set(high, temp2);
+		return x+1;
+	}
+	// End quicksort for Runway
